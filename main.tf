@@ -88,7 +88,7 @@ resource "aws_ecs_service" "my_first_service" {
   }
 
   network_configuration {
-    subnets          = ["subnet-076382280f9e7ea51","subnet-005671e664ea149fc"]
+    subnets          = ["subnet-04938fcf9303d7fe9","subnet-0068b4a5a5cf77320"]
     assign_public_ip = true
     security_groups  = [var.security_group]
   }
