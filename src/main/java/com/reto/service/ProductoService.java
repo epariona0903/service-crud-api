@@ -33,6 +33,14 @@ public class ProductoService {
 		p2.setCantidad(60);		
 		response.add(p2);
 
+		Producto p3 = new Producto();
+		p3.setId(100300L);
+		p3.setNombre("Leche");		
+		p3.setDescripcion("Presentación de 1Lt");		
+		p3.setPrecio(3.50);		
+		p3.setCantidad(80);		
+		response.add(p3);
+		
         return response;
         //return productoRepository.findAll();
     }
